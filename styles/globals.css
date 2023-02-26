@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  @apply bg-white rounded-lg p-10 shadow-sm hover:shadow-md hover:bg-white transition-all duration-300 ease-in-out border-2;
+}
+
+.card-min {
+  @apply bg-neutral-50 dark:bg-neutral-600 dark:text-white bg-opacity-50 rounded-lg shadow-sm;
+}
+
+.btn-normal {
+  @apply py-2 bg-neutral-700 rounded-lg hover:scale-105 font-bold text-white px-5
+}
+
+.input {
+  @apply border-0 px-3 py-3 placeholder-neutral-400 text-gray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150;
+}
+
+.tag-base {
+  @apply text-base;
+}
+
+.tag-white {
+  @apply text-gray-700 bg-white;
+}
+.tag-cloud, .tag-light {
+  @apply text-gray-600 bg-gray-100;
+}
+
+.btn {
+  @apply cursor-pointer font-semibold rounded-md shadow-md py-3 inline-block px-4 text-center focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:ring-opacity-75 duration-200;
+}
+
+.btn-sm {
+  @apply text-sm;
+}
+
+.btn-lg {
+  @apply text-lg px-5 py-4;
+}
+
+.btn-pill {
+  @apply rounded-full;
+}
+
+.btn-curve {
+  @apply rounded-lg;
+}
+
+.btn-xl {
+  @apply text-xl px-5 py-4;
+}
+
+.btn-primary {
+  @apply bg-emerald-700 hover:bg-emerald-600 text-white focus:ring-gray-400 dark:bg-emerald-600 hover:dark:bg-emerald-700;
+}
